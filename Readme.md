@@ -16,9 +16,7 @@ This project builds a complete pipeline: `Lexer` → `Parser` → `Codegen` → 
 ---
 
 📁 Project Structure
-scss
-Copy
-Edit
+
 📦 HinglishLang-Compiler
  ┣ 📄 lexer()       -> Token generator
  ┣ 📄 parser()      -> AST builder
