@@ -15,6 +15,19 @@ This project builds a complete pipeline: `Lexer` → `Parser` → `Codegen` → 
 
 ---
 
+📁 Project Structure
+scss
+Copy
+Edit
+📦 HinglishLang-Compiler
+ ┣ 📄 lexer()       -> Token generator
+ ┣ 📄 parser()      -> AST builder
+ ┣ 📄 codegen()     -> JS code emitter
+ ┣ 📄 runner()      -> Executor
+ ┗ 📄 compiler()    -> Glue for all
+
+ ---
+
 ## 🧠 Syntax Overview
 
 ```text
